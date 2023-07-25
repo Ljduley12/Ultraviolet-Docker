@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+window.onload = function() {
+  window.navigator.serviceWorker.register('./sw.js', {
+    scope: '/service/'
+  });
+  var iframe = window.document.createElement('iframe');
+  iframe.style.border = 'none';
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.margin = '0';
+  iframe.src = 'https://lj101.onrender.com/uv/service/hvtrs8%2F-nmw%2Cge%2Frlcy-rmbnoz-aoppmrctkol%2F7369-rmbnoz%3Flg%5DneRgfgrpep%3Djtvpq%251A%272D%250Flou.eg%272D%26lg%5DuvmAaopcien%3FNC%26lg%5DuvmQowrae%3FNC%26lg%5DuvmOefiwm%3FNC%26lg%5DneEltpyRoknv%3Djtvpq%251A%272D%250Flou.eg%272Dgcmgs%272Dafvgnvupe%2Chvmn%26lg%5DucIf%3Dwa%2F8prwz%7BT4xW3WuWwvMVhAZ%24ne_waQeqskolIf%3Dwaqeqs%2F5R4jSRyDrUGLoWQR5jUAG%24ne_tiqivIf%3Dtiqiv-%3BE%5B2%3AZ2uXljMW9%5B7kEObh%26lg%5DnvmQowrae%3F';
+  window.document.body.appendChild(iframe);
+}
+</script>
+</body>
+</html>
